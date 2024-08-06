@@ -1,0 +1,90 @@
+#row{
+    width:100%;
+    height: 200px;
+    background-color:lightsalmon;
+    display: flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+
+}
+
+.item{
+    color: red;
+    font-size: 5rem;
+    border: 2px solid black;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    margin: 12px;
+
+}
+
+#rowReverse{
+    width:100%;
+    height:400px;
+    background-color:lightblue;
+    display: flex;
+    flex-direction:row-reverse;
+    flex-wrap:wrap-reverse;
+
+}
+
+#column{
+    width:100%;
+    height: 600px;
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+#columnReverse{
+    width:100%;
+    height: 600px;
+    background-color:lightseagreen;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap-reverse;
+}
+
+#sportPlayers{
+    width: 100%;
+    height:2000px;
+    background-color:lightslategray;
+    border: 2px solid black;
+    display: flex;
+    flex-direction:column;
+    justify-content:start;
+    align-items:center;
+
+}
+img{
+    width: 150px;
+    height: 150px;
+    border:2px solid black;
+    margin: 5px;
+}
+
+
+
+#container{
+    width:100%;
+    height: 900px;
+    background-color:lightpink;
+    display: flex;
+    flex-direction:row;
+    justify-content:start;
+    align-items:center;
+    
+}
+
+
+.item1{
+    border: 2px solid black;
+    font-size: 3rem;
+    margin: 10px;
+}
+
+
+
